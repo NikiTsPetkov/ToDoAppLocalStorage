@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header><h2>Task Manager</h2></header>
+    <form>
+      <div class="input-task">
+        <input class="taskText" type="text" placeholder="Enter task" required />
+      </div>
+      <div class="input-deadline">
+        <input
+          class="deadline"
+          type="date"
+          required
+        />
+      </div>
+      <div class="submit">
+        <input class="buttonSubmit" type="button" value="Add task" />
+      </div>
+    </form>
+    <main>
+      <div class="table">
+        <p class="task">
+          <a class="todo" href=""></a>
+        </p>
+        <p class="time"></p>
+      </div>
+    </main>
+    <script src="task.js"></script>
+  </body>
+</html>

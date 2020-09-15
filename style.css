@@ -1,0 +1,68 @@
+header {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  color: #003;
+}
+form,
+main {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+.table {
+  display: flex;
+  border-bottom: 1px solid #000033;
+  margin: 0;
+}
+.input-task,
+.input-deadline,
+.submit {
+  padding: 6px 0px;
+}
+::placeholder {
+  color: #003;
+  font-size: 1.2em;
+}
+input {
+  padding: 10px;
+  border: 0;
+  border-radius: 1rem;
+  width: 50vw;
+}
+input:focus {
+  outline: none;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+input[type="text"],input[type="date"] {
+  border-bottom: 3px solid black;
+}
+input[type="button"] {
+  font-size: 1em;
+  background-color: #003;
+  color: #ffe;
+  cursor: pointer;
+}
+.task {
+  width: 60%;
+}
+.time{
+  width: 30%;
+  font-size: 1.2rem;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+i.fa {
+  color: #003;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+span {
+  padding-left: 5rem;
+}
