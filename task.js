@@ -1,6 +1,5 @@
 let buttonTask = document.querySelector(".buttonSubmit");
 const list = document.querySelector(".time");
-console.log(list);
 
 let icon = document.createElement("i")
 icon.setAttribute("class","fa fa-trash");
